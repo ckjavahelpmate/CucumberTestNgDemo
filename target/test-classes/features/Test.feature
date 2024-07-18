@@ -9,3 +9,4 @@ Scenario: test1 scenario2
 Given data given
 When data processed
 Then data validated
+And data validated2

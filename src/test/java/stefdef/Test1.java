@@ -3,6 +3,7 @@ package stefdef;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -31,6 +32,13 @@ public class Test1 {
 	public void data_validated() {
 		System.out.println("Data validated");
 		driver.quit();
+	}
+	
+	@Then("data validated2")
+	public void data_validated2() {
+		System.out.println("data validated 2");
+	   Assert.assertTrue(false);
+	   System.out.println("");
 	}
 	
 

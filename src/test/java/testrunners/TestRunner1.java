@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"stefdef"},
 		tags = "",
 		dryRun = false,
-		plugin = { "pretty", "html:target/cucumber-reports/report.html" }
+		plugin = { "pretty", "html:target/cucumber-reports/report.html",
+				"rerun:target/rerun.text"}
 		)
 public class TestRunner1 extends AbstractTestNGCucumberTests
 {
