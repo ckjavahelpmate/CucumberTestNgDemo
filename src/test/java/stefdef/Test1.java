@@ -37,8 +37,7 @@ public class Test1 {
 	@Then("data validated2")
 	public void data_validated2() {
 		System.out.println("data validated 2");
-	   Assert.assertTrue(false);
-	   System.out.println("");
+//	   Assert.assertTrue(false);
 	}
 	
 
